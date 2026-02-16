@@ -2,35 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Phase Lane – Legal</title>
+  <title>Phase Lane – Legal Portal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 600px;
+      margin: 80px auto;
       padding: 0 20px;
       line-height: 1.6;
+      color: #ffffff;
+      background-color: #0a0a0a; /* Deep Black Background */
+      text-align: center;
     }
     h1 {
-      font-size: 2em;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #00e5ff, #ff00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    a {
+    p {
+      color: #888;
+      margin-bottom: 40px;
+    }
+    .link-card {
       display: block;
-      margin: 15px 0;
-      font-size: 1.1em;
-      color: #0066cc;
+      margin: 20px 0;
+      padding: 20px;
+      font-size: 1.2em;
+      color: #00e5ff;
       text-decoration: none;
+      border: 1px solid #333;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .link-card:hover {
+      border-color: #00e5ff;
+      box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+      transform: translateY(-2px);
+      color: #ffffff;
+    }
+    .footer {
+      margin-top: 60px;
+      font-size: 0.8em;
+      color: #444;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 <body>
-  <h1>Phase Lane – Legal Information</h1>
-  <p>Official legal documents for the mobile game <strong>Phase Lane</strong>.</p>
+  <h1>PHASE LANE</h1>
+  <p>LEGAL INFORMATION & COMPLIANCE</p>
 
-  <a href="privacy-policy.html">Privacy Policy</a>
-  <a href="terms-and-conditions.html">Terms & Conditions</a>
+  <a href="privacy-policy.html" class="link-card">Privacy Policy</a>
+  <a href="terms-and-conditions.html" class="link-card">Terms & Conditions</a>
 
-  <p>© Phase Lane</p>
+  <div class="footer">© 2026 Phase Lane. All Rights Reserved.</div>
 </body>
 </html>
